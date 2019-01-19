@@ -23,6 +23,14 @@ body {
   }
 }
 
+.head
+{
+    font-size: 50px;
+    color:#6571b1
+}
+
+
+
 .teampad
 {
     margin-bottom: 18px;
@@ -69,6 +77,28 @@ p.lead {
   font-size: 1.5rem;
 }
 
+.picsm
+{
+ margin: 3px;
+}
+
+#1{
+    
+}
+#2{
+    
+}
+#3{
+    
+}
+#4{
+    
+}
+
+.vid
+{
+    padding: 50px;
+}
 
 .dev-icons {
   font-size: 3rem;
@@ -185,3 +215,15 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+
+.pics {
+  transition: transform .5s;
+    z-index: 10000;
+}
+
+.pics:hover {
+  transform: scale(2.5);
+    position: relative;
+}
+
